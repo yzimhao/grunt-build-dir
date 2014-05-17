@@ -1,15 +1,18 @@
 {
   "name": "grunt-build-dir",
-  "version": "0.0.1",
-  "description": "The best Grunt plugin ever.",
-  "repository": "",
+  "version": "0.0.2",
+  "description": "The best Grunt plugin. Create directories with Grunt",
+  "repository": "https://github.com/yzimhao/grunt-build-dir.git",
   "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+    "name": "yzimhao",
+    "email": "bbsey@foxmail.com",
+    "url": "http://www.awbao.com"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "mkdir",
+    "build dir",
+    "create directories"
   ],
   "main": "Gruntfile.js",
   "engines": {
