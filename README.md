@@ -41,13 +41,12 @@ grunt.initConfig({
 #### options.mode  
 Default value: `null`
 
-A string value that is used to do something with whatever.
 
 #### options.create
 Type: `array||object`  
 Default value: `[]`
 
-A string value that is used to do something else with whatever else.
+
 
 ### Usage Examples
 
