@@ -1,6 +1,6 @@
 {
   "name": "grunt-build-dir",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The best Grunt plugin. Create directories with Grunt",
   "repository": "https://github.com/yzimhao/grunt-build-dir.git",
   "author": {
