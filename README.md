@@ -37,15 +37,15 @@ grunt.initConfig({
 
 ### Options
 
-#### options.separator
-Type: `String`
-Default value: `',  '`
+#### options.mode
+Type: ``
+Default value: `null`
 
 A string value that is used to do something with whatever.
 
-#### options.punctuation
-Type: `String`
-Default value: `'.'`
+#### options.create
+Type: `array||object`
+Default value: `[]`
 
 A string value that is used to do something else with whatever else.
 
@@ -57,10 +57,21 @@ In this example, the default options are used to do something with whatever. So 
 ```js
 grunt.initConfig({
   build_dir: {
-    options: {},
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
+    all: {
+      options: {
+        create: ['test/a', 'test/b']
+      },
+      mode: 655
     },
+    test: {
+      options: {
+        create: {
+          a: 'test/a',
+          b: 'test/b'
+        },
+        mode: 755
+      }
+    }
   },
 })
 ```
@@ -71,13 +82,12 @@ In this example, custom options are used to do something else with whatever else
 ```js
 grunt.initConfig({
   build_dir: {
-    options: {
-      separator: ': ',
-      punctuation: ' !!!',
-    },
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
+    test:{
+      options: {
+        mode: '777',
+        create: ['test/a', 'test/b'],
+      }
+    }
   },
 })
 ```
