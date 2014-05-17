@@ -38,8 +38,7 @@ grunt.initConfig({
 
 ### Options
 
-#### options.mode
-Type: ``  
+#### options.mode  
 Default value: `null`
 
 A string value that is used to do something with whatever.
