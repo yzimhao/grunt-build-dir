@@ -19,22 +19,6 @@ grunt.loadNpmTasks('grunt-build-dir');
 
 ## The "build_dir" task
 
-### Overview
-In your project's Gruntfile, add a section named `build_dir` to the data object passed into `grunt.initConfig()`.
-
-```js
-grunt.initConfig({
-  build_dir: {
-    options: {
-      // Task-specific options go here.
-      create: {
-        a: 'test/a',
-        b: 'test/b'
-      }
-    }
-  },
-})
-```
 
 ### Options
 
